@@ -1,0 +1,15 @@
+name: AkyYTnotify
+version: 1.0.0
+main: ru.akydev.AkyYTnotify
+author: AkyDev
+description: Плагин для отправки уведомлений с ссылками
+api-version: 1.16
+commands:
+  notify:
+    description: Отправить уведомление с ссылкой всем игрокам
+    usage: /notify <ссылка> <текст>
+    permission: akyytnotify.use
+permissions:
+  akyytnotify.use:
+    description: Право на использование команды /notify
+    default: op
